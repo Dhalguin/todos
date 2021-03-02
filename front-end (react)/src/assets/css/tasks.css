@@ -1,0 +1,35 @@
+body {
+  background: #b2fefa; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0ed2f7,
+    #b2fefa
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0ed2f7,
+    #b2fefa
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card {
+  padding: 8px;
+  min-height: 300px;
+}
+
+input[type="text"] {
+  font-size: 18px;
+}
+
+.list-row {
+  background-color: #e1dee1;
+  border-radius: 5px;
+}
+
+.list-row h5 {
+  color: #4f4f4f;
+}
+
+.text-completed {
+  text-decoration: line-through;
+}
