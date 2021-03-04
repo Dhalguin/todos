@@ -1,4 +1,4 @@
-const Todo = require("../models/todo");
+const Todo = require("../models/task");
 
 module.exports = (app) => {
   app.get("/", (req, res) => {

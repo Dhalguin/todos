@@ -1,7 +1,7 @@
 process.env.DOTE_ENV != "production" && require("dotenv").config();
 const app = require("./config/server");
 const connectDB = require("./config/dbConnection");
-require("./app/routes/todo")(app);
+require("./app/routes/task")(app);
 
 connectDB();
 
